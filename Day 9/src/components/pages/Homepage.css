@@ -1,0 +1,110 @@
+/* Homepage.css */
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; 
+  background-image: url('https://www.holidaymonk.com/wp-content/uploads/2022/05/Air-ticket-Booking-1024x533.webp'); 
+  background-size: cover; 
+  background-position: center; 
+}
+
+
+.container {
+  
+  margin:  2 0 0; 
+  max-width: 400px; 
+  top: 0px;;
+  
+}
+
+.sidebar {
+  width: 250px;
+
+  color: white;
+  padding: 20px;
+ 
+}
+
+.sidebar2 {
+  width: 250px;
+
+  color: rgb(169, 47, 47);
+  padding: 20px;
+
+  margin-left: 150px; /* Add margin to position sidebar2 near sidebar1 */
+}
+.sidebar2 ul {
+  list-style: square; /* Use circle bullets */
+  padding: 20px; /* Adjust the padding as needed */
+  position: absolute;
+  left: 80px;
+   bottom: 350px;
+}
+
+.sidebar ul {
+  list-style: square; /* Use circle bullets */
+  padding: 0;
+  position: absolute;
+  left: 100px; /* Adjust the distance from the bottom */
+}
+ul li::marker {
+  color: #151616; /* Change this to the desired color */
+}
+
+.sidebar a {
+  text-decoration: aliceblue;
+  color: rgb(11, 11, 12);
+  font-weight: calc();
+}
+.sidebar2 a{
+  text-decoration: aliceblue;
+  color: rgb(9, 65, 204);
+  font-weight: calc();
+}
+
+.container form {
+  display:inline-block;
+  flex-wrap: wrap;
+  background-color: transparent;
+  align-items: normal; 
+}
+
+.container label {
+  width: 100%;
+  font-weight: bold;
+}
+
+.container input[type="text"],
+.container input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #f6f1f1;
+  border-radius: 0;
+  font-size: 16px;
+  
+}
+
+.container button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+#results {
+  
+  font-weight:bolder;
+  color:rgb(244, 115, 205);
+}
