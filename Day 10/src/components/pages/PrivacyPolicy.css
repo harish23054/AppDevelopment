@@ -1,0 +1,40 @@
+/* Add this CSS in a separate stylesheet or inline style */
+
+.privacy-policy {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin-left: 20px;
+  }
+  
+  /* Style list items inside the ul */
+  ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+  }
+  
+  /* Style links inside the content */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
